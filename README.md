@@ -1,6 +1,6 @@
-# Atlas Bear theme for Quarto
+# Quarto theme
 
-The shared look of the Atlas Bear Labs websites, packaged as a [Quarto](https://quarto.org/) format extension: a blue grey header with indigo accents in light and dark modes, a centred page capped at 1220px, and a repository block in the navbar that shows the latest release, stars and forks.
+A shared look for our Quarto websites, packaged as a [Quarto](https://quarto.org/) format extension: a blue grey header with indigo accents in light and dark modes, a centred page capped at 1220px, and a repository block in the navbar that shows the latest release, stars and forks.
 
 It is used by [AI-Enhanced OSINT](https://github.com/atlas-bear/osint-ai-guide), [Maritime and Supply Chain OSINT Tools](https://github.com/atlas-bear/osint-tools), [Recommended Reading](https://github.com/atlas-bear/recommended-reading) and the [Atlas Bear Library](https://github.com/atlas-bear/atlas-bear.github.io).
 
@@ -9,7 +9,7 @@ It is used by [AI-Enhanced OSINT](https://github.com/atlas-bear/osint-ai-guide),
 In the Quarto project directory (the one holding `_quarto.yml`):
 
 ```bash
-quarto add atlas-bear/quarto-atlas-bear
+quarto add atlas-bear/quarto-theme
 ```
 
 That copies the extension into `_extensions/atlas-bear/theme/`, which you commit. Then set the format:
@@ -25,7 +25,7 @@ The `data-repo` attribute names the repository the navbar block describes. Anyth
 
 ## Update it
 
-When the theme changes here, run `quarto update atlas-bear/quarto-atlas-bear` in each site and commit the result. Quarto vendors extensions into the project on purpose, so a site never changes until you update it.
+When the theme changes here, run `quarto update atlas-bear/quarto-theme` in each site and commit the result. Quarto vendors extensions into the project on purpose, so a site never changes until you update it.
 
 ## What is in it
 
