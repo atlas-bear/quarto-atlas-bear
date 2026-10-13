@@ -1,0 +1,13 @@
+# Minimal site using the theme. Run: quarto add atlas-bear/quarto-atlas-bear, then quarto render
+project:
+  type: website
+website:
+  title: "Example"
+  navbar:
+    left:
+      - text: Home
+        href: index.md
+format:
+  atlas-bear/theme-html:
+    include-after-body:
+      text: '<script src="repo-stats.js" data-repo="atlas-bear/quarto-atlas-bear"></script>'
