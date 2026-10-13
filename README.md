@@ -59,7 +59,7 @@ When the theme changes here, run this in each site and commit the result:
 quarto update atlas-bear/quarto-theme
 ```
 
-Releases are tagged. To pin a site to a release rather than the latest commit:
+Releases are tagged and listed in the [CHANGELOG](CHANGELOG.md). To pin a site to a release rather than the latest commit:
 
 ```bash
 quarto add atlas-bear/quarto-theme@v1.0.0
