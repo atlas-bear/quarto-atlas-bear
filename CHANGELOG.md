@@ -4,6 +4,10 @@ All notable changes to the theme are recorded here. The format follows [Keep a C
 
 ## [Unreleased]
 
+### Changed
+
+- The README and the example say the shared theme and the Library rather than Atlas Bear; the licence names AB//LABS (formerly Atlas Bear Labs), which began as Atlas Bear Labs and spun off from Atlas Bear. Text only, no behaviour change.
+
 ## [1.0.0] - 2026-10-13
 
 ### Added

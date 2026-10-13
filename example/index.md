@@ -2,4 +2,4 @@
 title: "Example"
 ---
 
-A page in the Atlas Bear theme.
+A page in the shared theme.

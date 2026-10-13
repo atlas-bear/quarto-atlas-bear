@@ -91,7 +91,7 @@ If a change would suit every site, change it here instead and open a pull reques
 
 ## Sites using it
 
-[AI-Enhanced OSINT](https://atlas-bear.github.io/osint-ai-guide/), [Maritime and Supply Chain OSINT Tools](https://atlas-bear.github.io/osint-tools/), [Recommended Reading](https://atlas-bear.github.io/recommended-reading/) and the [Atlas Bear Library](https://atlas-bear.github.io/).
+[AI-Enhanced OSINT](https://atlas-bear.github.io/osint-ai-guide/), [Maritime and Supply Chain OSINT Tools](https://atlas-bear.github.io/osint-tools/), [Recommended Reading](https://atlas-bear.github.io/recommended-reading/) and the [Library](https://atlas-bear.github.io/).
 
 ## Licence
 
