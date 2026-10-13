@@ -1,6 +1,6 @@
 # Quarto theme
 
-A shared look for our Quarto websites, packaged as a [Quarto](https://quarto.org/) format extension. Install it in a website project, set one line in `_quarto.yml`, and the site gets the same header, colours, layout and repository block as every other site that uses it. Built and maintained by [Atlas Bear Labs](https://github.com/atlas-bear); MIT licensed, so anyone may use it.
+A shared look for our Quarto websites, packaged as a [Quarto](https://quarto.org/) format extension. Install it in a website project, set one line in `_quarto.yml`, and the site gets the same header, colours, layout and repository block as every other site that uses it. Built and maintained by [AB//LABS](https://ab-labs.io); MIT licensed, so anyone may use it.
 
 ## What you get
 
