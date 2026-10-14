@@ -51,6 +51,24 @@ format:
 
 Site structure (navigation bar, sidebar, footer, search) is configured in each site's `_quarto.yml` as usual; the extension only sets the format.
 
+## Library search
+
+The theme can put a search box in the navigation bar that searches every site in the Library at once. One site, the Library page, publishes the index (`search-index.json`) and the search engine (`minisearch.min.js`, MIT); every other site loads both from there the first time a visitor types, so a site carries nothing but a script tag. Results are grouped by site with the current site first, and each opens the page, the section or the entry it names. The query never leaves the browser.
+
+Turn Quarto's own search off and add the script after the repository block:
+
+```yaml
+website:
+  search: false
+
+format:
+  atlas-bear/theme-html:
+    include-after-body:
+      text: '<script src="repo-stats.js" data-repo="your-org/your-repo"></script><script src="library-search.js" data-source="tools"></script>'
+```
+
+`data-source` is the site's key in the index, so its own results come first; `data-index` points at a different index if you run your own (the default is `https://library.ab-labs.io/search-index.json`). The index is built by `scripts/build_search.py` in the [atlas-bear.github.io](https://github.com/atlas-bear/atlas-bear.github.io) repository, which also explains how a site is added to it. In the browser, `/` or Ctrl+K (Cmd+K on a Mac) focuses the box, the arrow keys move through the results, Enter opens one and Esc closes the list.
+
 ## Update
 
 When the theme changes here, run this in each site and commit the result:

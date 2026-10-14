@@ -4,6 +4,12 @@ All notable changes to the theme are recorded here. The format follows [Keep a C
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-10-14
+
+### Added
+
+- A Library search box for the navigation bar (`library-search.js`): one index of every site, fetched from the Library page and searched in the browser with MiniSearch, results grouped by site with the current site first, keyboard shortcuts, and light and dark styles. A site opts in with one script tag and `search: false`; see the README.
+
 ### Changed
 
 - The README and the example say the shared theme and the Library rather than Atlas|Bear; the licence names AB//LABS (formerly Atlas|Bear Labs), which began as Atlas|Bear Labs and spun off from Atlas|Bear. Text only, no behaviour change.
