@@ -35,7 +35,7 @@ format:
       text: '<script src="repo-stats.js" data-repo="your-org/your-repo"></script>'
 ```
 
-Leave the script line out and the header shows no repository block. Everything else is optional. To change a default, put it under the same key; for example a landing page without a sidebar:
+The block sits at the right end of the bar with the search box and the colour toggle, shows the repository name with the owner in the tooltip, and is hidden where the menu collapses. Leave the script line out and the header shows no repository block. Everything else is optional. To change a default, put it under the same key; for example a landing page without a sidebar:
 
 ```yaml
 format:

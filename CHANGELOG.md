@@ -4,6 +4,12 @@ All notable changes to the theme are recorded here. The format follows [Keep a C
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-10-14
+
+### Changed
+
+- The navigation bar follows the usual order: site name on the left, the site's own links next to it, and the utilities (search, repository block, colour toggle) together at the right end. The repository block now sits with the utilities, shows the repository name without the owner (the owner is in the tooltip), is narrower, and is hidden where the menu collapses. The search box keeps one width when focused instead of growing and pushing the links aside, and links and the site name never wrap or truncate.
+
 ## [1.1.0] - 2026-10-14
 
 ### Added
